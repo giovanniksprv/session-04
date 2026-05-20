@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SMK Digital - Otomotif</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <style>
+    .bg-dark-custom { background-color: #1a1d23 !important; }
+    .nav-link { color: #a0a0a0 !important; }
+    .nav-link:hover, .show > .nav-link { color: #fff !important; }
+  </style>
+</head>
+<body class="bg-light">
+
+  <!-- NAVBAR (Sama) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3 shadow">
+    <div class="container-fluid px-lg-5 px-3">
+        <a class="navbar-brand text-white fw-bold d-flex align-items-center" href="#beranda">
+            <img src="logo.png" alt="Logo Sekolah" width="50" height="50" class="me-2">
+            SMK LITTLE SAINT JAMES
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="#beranda">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#visimisi">Visi Misi</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#datasiswa">Data Siswa</a></li>
+                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="jurusanDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Jurusan</a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="jurusanDropdown">
+                        <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                        <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
+                        <li><a class="dropdown-item" href="kuliner.html">KULINER</a></li>
+                        <li><a class="dropdown-item" href="busana.html">BUSANA</a></li>
+                        <li><a class="dropdown-item" href="otomotif.html">OTOMOTIF</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="tugas2.html#jurusan">Lihat Semua</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <!-- HERO -->
+  <div id="beranda" class="py-5 text-white text-center" style="background: linear-gradient(rgba(0,30,120,0.75), rgba(0,10,60,0.85)), url('https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=1400&q=80') center/cover no-repeat; margin-top: 76px;">
+    <div class="container py-4">
+      <h1 class="fw-bold display-5 text-uppercase">Otomotif</h1>
+      <p class="mt-3 mx-auto" style="max-width:700px;">
+        Jurusan yang membekali peserta didik dengan keahlian perawatan, perbaikan, dan diagnosis sistem pada kendaraan ringan modern (konvensional & hybrid).
+      </p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-12 col-lg-8">
+        <div class="card border-0 shadow-sm p-4">
+          <h3 class="fw-bold mb-3">Menguasai Teknologi Otomotif Terkini</h3>
+          <p class="text-muted">
+            Program keahlian Otomotif (TKR dan TSM) mempelajari teknologi pemeliharaan dan perbaikan engine, sistem kelistrikan, chassis, serta penggunaan alat diagnostic scanner. Siswa juga dibekali dengan pengetahuan kendaraan listrik (EV) dasar.
+          </p>
+          <div class="row g-3 mt-2">
+            <div class="col-12 col-sm-6">
+              <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                <div class="bg-white border rounded-2 p-2 d-flex align-items-center justify-content-center" style="width:48px;height:48px;">
+                  <i class="bi bi-ev-station text-primary fs-4"></i>
+                </div>
+                <div>
+                  <p class="fw-bold mb-1">Engine & Electrical</p>
+                  <p class="text-muted small mb-0">Overhaul engine, sistem EFI, kelistrikan body.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="d-flex align-items-start gap-3 p-3 bg-light rounded-3">
+                <div class="bg-white border rounded-2 p-2 d-flex align-items-center justify-content-center" style="width:48px;height:48px;">
+                  <i class="bi bi-car-front text-success fs-4"></i>
+                </div>
+                <div>
+                  <p class="fw-bold mb-1">Diagnosis & Scanner</p>
+                  <p class="text-muted small mb-0">Menggunakan scanner untuk membaca ECU kendaraan.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="my-4"/>
+          <h5 class="fw-bold mb-3">Fasilitas Unggulan</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">Bengkel Otomotif Modern <span class="badge bg-primary rounded-pill">4 Lift</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">Scanner & ECU Trainer <span class="badge bg-primary rounded-pill">Diagnostik</span></li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">Mobil Listrik Praktik (EV) <span class="badge bg-primary rounded-pill">New Tech</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4">
+        <div class="card border-0 shadow-sm mb-4">
+          <div class="card-header bg-dark text-white text-center fw-bold py-3">Status Pendaftaran</div>
+          <div class="card-body">
+            <div class="d-flex justify-content-between mb-1"><small class="text-muted">Kuota Terisi</small><small class="fw-bold">100%</small></div>
+            <div class="progress mb-3" style="height:10px;"><div class="progress-bar bg-primary" style="width:100%;"></div></div>
+            <div class="d-grid mb-3"><button class="btn btn-primary fw-bold text-uppercase">Daftar Sekarang</button></div>
+            <div class="text-center"><a href="tugas2.html#jurusan" class="text-muted text-decoration-none small"><i class="bi bi-arrow-left me-1"></i>Kembali</a></div>
+          </div>
+        </div>
+        <div class="card border-0 shadow-sm overflow-hidden">
+          <img src="https://www.polytechnic.astra.ac.id/storage/2023/07/to_new.jpg" class="card-img-top" alt="Siswa Praktek Otomotif"/>
+          <div class="card-body">
+            <p class="fst-italic text-muted small mb-2">"Praktik langsung dengan mobil terbaru, lulus langsung kerja di bengkel resmi."</p>
+            <p class="fw-bold small mb-0">- Jeffrey E., Alumni 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white-50 text-center py-4 mt-3">
+    <small>&copy; 2026 SMK LITTLE SAINT JAMES</small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
